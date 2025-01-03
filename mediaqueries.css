@@ -1,0 +1,8 @@
+@media screen and (max-width:1200px) {
+    #desk{
+        display: none;
+    }
+    #ham{
+        display:flex;
+    }
+}
