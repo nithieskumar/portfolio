@@ -1,6 +1,6 @@
-function togglMenu() {
-    const menu=document.querySelector(".m1-links");
-    const icon=document.querySelector(".ham-icon");
-    menu.classList.togglr("open");
+function toggleMenu() {
+    const menu = document.querySelector(".menu-links");
+    const icon = document.querySelector(".ham-icon");
+    menu.classList.toggle("open");
     icon.classList.toggle("open");
-}
+  }

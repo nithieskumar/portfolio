@@ -1,8 +1,7 @@
-@media screen and (max-width:1200px) {
-    #desk{
-        display: none;
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
     }
-    #ham{
-        display:flex;
+    #ham-nav {
+      display: flex;
     }
-}
