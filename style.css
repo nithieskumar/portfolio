@@ -77,3 +77,15 @@ a:hover{
     transition: all 0.3 ease-in-out;
 
 }
+.ham-icon.open span:first-child()
+{
+    transform:rotate(45deg) translate(10px,5px)
+}
+.ham-icon.open span:nth-child(2){
+  opacity: 0;
+}
+ham-icon.open span:last-child()
+{
+    transform:rotate(-45deg) translate(10px,-5px)
+}
+.h
